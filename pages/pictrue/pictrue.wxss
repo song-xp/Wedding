@@ -1,0 +1,9 @@
+/* pages/pictrue/pictrue.wxss */
+swiper{
+  width: 100%;
+  height: 100vh;
+}
+.item{
+  width: 100%;
+  height: 100%;
+}

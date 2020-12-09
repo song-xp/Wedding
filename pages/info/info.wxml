@@ -1,0 +1,11 @@
+<!--pages/info/info.wxml-->
+<view class="info">
+  <image class="background" src="{{src}}"></image>
+  <form>
+    <input type="text" placeholder="输入您的姓名" placeholder-style="color:#FF4B90" />
+    <input type="text" placeholder="输入您的手机号码" placeholder-style="color:#FF4B90" />
+    <input type="text" placeholder="参加婚礼的人数：1" placeholder-style="color:#FF4B90" />
+    <input type="text" placeholder="输入您的祝福语" placeholder-style="color:#FF4B90" />
+    <input type="submit" value="提交" class="submit" />
+  </form>
+</view>

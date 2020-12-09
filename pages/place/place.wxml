@@ -1,0 +1,4 @@
+<!--pages/place/place.wxml-->
+<view class="place">
+  <map latitude='{{latitude}}' longitude='{{longitude}}' markers='{{markers}}' bindregionchange='regionChange'></map>
+</view>

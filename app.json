@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/pictrue/pictrue",
+    "pages/video/video",
+    "pages/place/place",
+    "pages/info/info"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FF4B90",
+    "navigationBarTitleText": "邀请函",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "邀请函",
+        "iconPath": "images/invite.png",
+        "selectedIconPath": "images/invite.png"
+      },
+      {
+        "pagePath": "pages/pictrue/pictrue",
+        "text": "图片",
+        "iconPath": "images/marry.png",
+        "selectedIconPath": "images/marry.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "美好时光",
+        "iconPath": "images/video.png",
+        "selectedIconPath": "images/video.png"
+      },
+      {
+        "pagePath": "pages/place/place",
+        "text": "婚礼地点",
+        "iconPath": "images/map.png",
+        "selectedIconPath": "images/map.png"
+      },
+      {
+        "pagePath": "pages/info/info",
+        "text": "宾客信息",
+        "iconPath": "images/guest.png",
+        "selectedIconPath": "images/guest.png"
+      }
+    ]
+  }
+}

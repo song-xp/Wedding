@@ -1,0 +1,9 @@
+<!--pages/video/video.wxml-->
+<view class="video">
+  <view class="title">标题：{{title1}}</view>
+  <view class="time">时间：{{time}}</view>
+  <video id="myVideo1" src="{{src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+  <view class="title">标题：{{title2}}</view>
+  <view class="time">时间：{{time}}</view>
+  <video id="myVideo2" src="{{src}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+</view>

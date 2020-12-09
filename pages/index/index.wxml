@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<view class="container">
+  <image class="background" src="{{bgi}}"></image>
+  <text class="invite">邀请函</text>
+  <image class="home" src="{{src}}"></image>
+  <text class="man-name">王辉辉</text>
+  <image class="logo1" src="{{logo}}"></image>
+  <text class="man-identity">新郎</text>
+
+  <text class="woman-name">张琳琳</text>
+  <image class="logo2" src="{{logo}}"></image>
+  <text class="woman-identity">新娘</text>
+
+  <image class="wedding" src="{{wedding}}"></image>
+
+  <text class="word">{{word}}</text>
+  <text class="time">{{time}}</text>
+  <text class="place">{{place}}</text>
+
+  <image class="gif" src="{{gif}}"></image>
+
+  <view class="player" bindtap="play">
+    <image class="music_icon {{tape}}" src="{{music_icon}}"></image>
+    <image class="music_play {{tool}}" src="{{music_play}}"></image>
+  </view>
+
+</view>

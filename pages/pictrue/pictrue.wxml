@@ -1,0 +1,8 @@
+<!--pages/pictrue/pictrue.wxml-->
+<swiper indicator-dots="true" autoplay="true" interval="3000" circular="true" vertical="true" indicator-color="#fff" indicator-active-color="#ff0000"> 
+  <view wx:for="{{arr}}" wx:key="lunbo">
+    <swiper-item>
+      <image class="item" src="{{item}}"></image>
+    </swiper-item>
+  </view>
+</swiper>
